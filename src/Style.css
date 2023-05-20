@@ -1,0 +1,843 @@
+/* Set the background color of body to tan */
+
+/* NAVBAR */
+.justify-content-end {
+  font-size: 30px;
+  margin-right: 1px;
+}
+
+.navbar {
+  position: fixed;
+  opacity: 1;
+  z-index: 20;
+  margin: auto 10%;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.nav-image {
+  width: 130px;
+  padding: 10px 10px;
+}
+
+.nav-bryan-title {
+  color: white;
+  font-family: "Raleway Dots", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-right: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.nav-link-custom {
+  text-decoration: none;
+  padding: 8px 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  transition: transform 0.5s, background-color 0.5s, color 0.5s; /* Transition declaration */
+}
+
+.nav-link-custom:hover {
+  background-color: black;
+  color: white !important;
+  /* transform: scale(1.1); */
+}
+
+/* WELCOME SECTION */
+.landing-title {
+  margin-top: 17%;
+  margin-right: 15%;
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  /* padding: 20px; */
+  color: #3c4048;
+  position: relative;
+}
+
+.landing-threeD {
+  height: 1100px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+/* WHY ME SECTION */
+.whyMe-background {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 850px;
+  z-index: 1;
+}
+
+.whyMe-background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-image: url(../public/tito3286.PNG);
+  background-size: 950px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+  z-index: -1;
+}
+
+.whyMe-title {
+  padding: 30px;
+  margin-top: 30%;
+  font-family: "Prata", serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.whyMe-title2 {
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 30%;
+  font-family: "Prata", serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.whyMe-paragraph {
+  padding: 30px;
+  font-size: 40px;
+  font-family: "Prata", serif;
+}
+
+.whyMe-paragraph2 {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  margin-top: 10%;
+  font-size: 23px;
+  font-family: "Nobile", sans-serif;
+}
+
+.custom-shape-divider-top-1682969589 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1682969589 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-top-1682969589 .shape-fill {
+  fill: white;
+}
+
+.custom-shape-divider-top-1682969709 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1682969709 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-top-1682969709 .shape-fill {
+  fill: #ffffff;
+}
+
+/* TEMPLATE SECTION */
+.template-pic {
+  width: 900px;
+  margin: auto auto;
+}
+
+.template-container {
+  text-align: center;
+}
+
+.template-title {
+  margin-top: 15%;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+}
+
+.template-paragraph {
+  color: white;
+  margin-top: 10%;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Nobile", sans-serif;
+}
+
+/* 3D SECTION */
+
+.custom-shape-divider-top-1682969709 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1682969709 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.custom-shape-divider-top-1682969709 .shape-fill {
+  fill: black;
+}
+
+.threeD-container {
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 40px;
+}
+
+.threeD-text {
+  padding: 90px;
+  text-align: center;
+}
+
+.threeD-text h1 {
+  font-family: "Prata", serif;
+  font-weight: bold;
+}
+
+.threeD-text h5 {
+  margin-top: 5%;
+  font-family: "Nobile", sans-serif;
+}
+
+.threeD-text h6 {
+  padding-bottom: 90px;
+  font-family: "Nobile", sans-serif;
+}
+
+.threeD-row-div {
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  margin-top: 20%;
+  position: relative;
+}
+
+.threeD-row {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.threeD-col {
+  height: 400px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border-top: 3px solid rgb(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px rgb(0, 0, 0, 0.37);
+}
+
+.card-title {
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+}
+
+.card-divider {
+  width: 30%;
+  margin: auto auto;
+  height: 7px;
+  background-color: yellow; /* or any color */
+  border: none;
+}
+
+.card-divider-two {
+  width: 30%;
+  margin: auto auto;
+  height: 7px;
+  background-color: blue;
+  border: none;
+}
+
+.card-divider-three {
+  width: 30%;
+  margin: auto auto;
+  height: 7px;
+  background-color: green;
+  border: none;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Nobile", sans-serif;
+}
+
+/* FOOTER SECTION  */
+
+.custom-shape-divider-top-1682990070 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1682990070 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 24px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1682990070 .shape-fill {
+  fill: #dddcdb;
+}
+
+.footer-content {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.footer-title {
+  text-align: center;
+  color: #3c4048;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* On screens that are 992px or less, set the background color to blue............ IPAD */
+@media screen and (max-width: 992px) {
+  .justify-content-end {
+    font-size: 30px;
+  }
+
+  #basic-navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar {
+    position: fixed;
+    opacity: 1;
+    z-index: 20;
+    margin: auto auto;
+    width: 90%;
+  }
+
+  .nav-toggle {
+    padding: 20px 15px !important;
+  }
+
+  .nav-image {
+    width: 110px;
+  }
+
+  .nav-bryan-title {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .nav-toggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224,68,222, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+    opacity: 0.7;
+  }
+
+  .nav-link-custom {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: transform 0.5s, background-color 0.5s, color 0.5s; /* Transition declaration */
+  }
+
+  .nav-link-custom:hover {
+    background-color: white;
+    color: black !important;
+    transform: scale(1); /* Scaling the element up */
+  }
+
+  /* WELCOME SECTION */
+  .landing-title {
+    margin-top: 30%;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 70px;
+    padding: 20px;
+    color: #a2b5bb;
+  }
+
+  .landing-threeD {
+    height: 1000px;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  /* WHY ME SECTION */
+  .whyMe-background {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px;
+    z-index: 1;
+  }
+
+  .whyMe-background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url(../public/tito3286.PNG);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    z-index: -1;
+  }
+
+  .whyMe-title {
+    /* padding: 30px; */
+    margin-left: 30px;
+    margin-top: 10%;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+  .whyMe-title2 {
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 1px;
+    font-family: "Prata", serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .whyMe-paragraph {
+    /* padding: 30px; */
+    padding: 3px;
+    margin-left: 30px;
+    margin-bottom: 165px;
+    font-size: 40px;
+    font-family: "Prata", serif;
+  }
+
+  .whyMe-paragraph2 {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-top: 10%;
+    font-size: 23px;
+  }
+
+  /* TEMPLATE SECTION */
+  .template-pic {
+    width: 100%;
+    margin: auto auto;
+  }
+
+  .template-container {
+    text-align: center;
+  }
+
+  .template-title {
+    margin-top: 10%;
+    color: white;
+    font-size: 60px;
+  }
+
+  .template-paragraph {
+    margin-top: 10%;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* 3D SECTION */
+  .threeD-container {
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 50px;
+  }
+
+  .threeD-text {
+    padding: 90px;
+    text-align: center;
+  }
+
+  .threeD-text h1 {
+    font-family: "Prata", serif;
+    font-weight: bold;
+  }
+
+  .threeD-text h5 {
+    margin-top: 5%;
+  }
+
+  .threeD-text h6 {
+    padding-bottom: 90px;
+  }
+
+  .threeD-row-div {
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    margin-top: 50%;
+    position: relative;
+  }
+
+  .threeD-row {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .threeD-col {
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: solid 1px rgb(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgb(0, 0, 0, 0.37);
+  }
+
+  .threeD-spline {
+    height: 400px !important;
+  }
+
+  /* FOOTER SECTION  */
+
+  .custom-shape-divider-top-1682990070 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1682990070 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 24px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-top-1682990070 .shape-fill {
+    fill: #dddcdb;
+  }
+
+  .footer-content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+  }
+
+  .footer-title {
+    text-align: center;
+    color: #3c4048;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive........... IPHONE */
+@media screen and (max-width: 600px) {
+  .justify-content-end {
+    font-size: 30px;
+  }
+
+  #basic-navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar {
+    position: fixed;
+    opacity: 1;
+    z-index: 20;
+    margin: auto auto;
+    width: 90%;
+  }
+
+  .navbar-brand {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .nav-toggle {
+    padding: 12px 9px !important;
+  }
+
+  .nav-image {
+    width: 70px;
+    padding: 5px 5px;
+  }
+
+  .nav-bryan-title {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .nav-toggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224,68,222, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+    opacity: 0.7;
+  }
+
+  .nav-link-custom {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    transition: transform 0.5s, background-color 0.5s, color 0.5s; /* Transition declaration */
+  }
+
+  .nav-link-custom:hover {
+    background-color: white;
+    color: black !important;
+    transform: scale(1); /* Scaling the element up */
+  }
+
+  /* WELCOME SECTION */
+  .landing-title {
+    text-align: center;
+    margin-top: 18%;
+    margin-left: 15%;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: #a2b5bb;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .landing-threeD {
+    height: 500px;
+    width: 100%;
+    padding-top: 3px;
+  }
+
+  /* WHY ME SECTION */
+  .whyMe-background {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px;
+    z-index: 1;
+  }
+
+  .whyMe-background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(../public/tito3286.PNG);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: -20px 30%;
+    margin-top: 20px;
+    z-index: -1;
+  }
+
+  .whyMe-title {
+    padding: 3px;
+    margin-left: 20px;
+    margin-top: 20%;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .whyMe-title2 {
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 1px;
+    font-family: "Prata", serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .whyMe-paragraph {
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 10%;
+    margin-bottom: 80px;
+    font-size: 25px;
+    font-family: "Prata", serif;
+  }
+
+  .whyMe-paragraph2 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 16px;
+    color: black;
+    padding: 20px 20px;
+  }
+
+  /* TEMPLATE SECTION */
+  .template-pic {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .template-container {
+    text-align: center;
+  }
+
+  .template-title {
+    margin-top: 10%;
+    color: white;
+    font-size: 35px;
+  }
+
+  .template-paragraph {
+    margin-top: 10%;
+    font-size: 17px;
+    padding: 20px 20px;
+  }
+
+  /* 3D SECTION */
+  .threeD-container {
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .threeD-text {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .threeD-text h1 {
+    font-family: "Prata", serif;
+    font-weight: bold;
+  }
+
+  .threeD-text h5 {
+    margin-top: 5%;
+  }
+
+  .threeD-text h6 {
+    padding-bottom: 90px;
+  }
+
+  .threeD-row-div {
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    margin-top: 80%;
+    position: relative;
+  }
+
+  .threeD-row {
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+
+  .threeD-col {
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: solid 1px rgb(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgb(0, 0, 0, 0.37);
+  }
+
+  .threeD-spline {
+    height: 250px !important;
+  }
+
+  /* FOOTER SECTION  */
+
+  .custom-shape-divider-top-1682990070 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1682990070 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 24px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-top-1682990070 .shape-fill {
+    fill: #dddcdb;
+  }
+
+  .footer-content {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: white;
+  }
+
+  .footer-title {
+    text-align: center;
+    color: #3c4048;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,300 @@
+.contact-form {
+  text-align: center;
+  margin: 20% 10%;
+  /* padding-bottom: 50px; */
+  display: inline-block;
+}
+
+.contact-form p {
+  color: gray;
+}
+
+.contact-form button {
+  margin-left: 70%;
+  background-color: transparent;
+  border: solid gray;
+  font-family: "Courier Prime", monospace;
+  color: white;
+  padding: 7px 15px;
+  font-weight: bold;
+}
+
+.contact-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 85px;
+  font-weight: bold;
+  font-family: "DM Serif Display", serif;
+  color: white;
+  display: inline-block;
+}
+
+.contact-input {
+  display: block;
+  width: 40rem;
+  height: 3rem;
+  font-weight: bold;
+  font-family: "Courier Prime", monospace;
+  padding: 30px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 5px gray;
+  color: white;
+  outline: none;
+}
+
+.contact-textarea {
+  display: block;
+  width: 40rem;
+  height: 7rem;
+  font-weight: bold;
+  font-family: "Courier Prime", monospace;
+  padding: 20px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 5px gray;
+  color: white;
+  outline: none;
+}
+
+.contact-spline {
+  margin-top: 10%;
+}
+
+@keyframes draw-border {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.thankyou-page {
+  position: relative;
+  margin: 20% auto;
+  font-size: 90px;
+  font-family: "DM Serif Display", serif;
+  color: white;
+  text-align: center;
+  padding: 40px 40px;
+  overflow: hidden;
+}
+
+.thankyou-page:before,
+.thankyou-page:after {
+  content: "";
+  position: absolute;
+  border: 2px solid white;
+  border-width: 4px 0 0 4px; /* Top and left borders */
+  animation: draw-border 0.5s linear forwards;
+}
+
+.thankyou-page:before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+.thankyou-page:after {
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-width: 0 4px 4px 0; /* Right and bottom borders */
+  /* animation-delay: 0.5s; Delay the start of this animation */
+}
+
+/* On screens that are 992px or less, set the background color to blue............ IPAD */
+
+@media screen and (max-width: 992px) {
+  .contact-form {
+    text-align: center;
+    margin: auto 25%;
+    padding-top: 0;
+    /* padding-bottom: 50px; */
+  }
+
+  .contact-form p {
+    color: gray;
+    font-size: 15px;
+  }
+
+  .contact-form button {
+    margin-left: 5%;
+    background-color: transparent;
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+  }
+
+  .contact-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+  }
+
+  .contact-input {
+    display: block;
+    width: 25rem;
+    height: 3rem;
+    font-weight: bold;
+    padding: 20px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 5px gray;
+    color: white;
+    outline: none;
+  }
+
+  .contact-textarea {
+    display: block;
+    width: 25rem;
+    height: 7rem;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 5px gray;
+    color: white;
+    outline: none;
+  }
+
+  .contact-message {
+    margin-bottom: 20%;
+  }
+
+  .contact-spline {
+    height: 500px !important;
+    margin-top: 20%;
+  }
+
+  .thankyou-page {
+    margin: 20% auto;
+    font-size: 90px;
+    font-family: "DM Serif Display", serif;
+    color: white;
+    text-align: center;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive........... IPHONE */
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    text-align: center;
+    margin: auto 20%;
+    padding-top: 0;
+    /* padding-bottom: 50px; */
+  }
+
+  .contact-form p {
+    color: gray;
+    font-size: 10px;
+  }
+
+  .contact-form button {
+    margin-left: 5%;
+    background-color: transparent;
+    border: solid #d2001a;
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+  }
+
+  .contact-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+  }
+
+  .contact-input {
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 5px gray;
+    color: white;
+    outline: none;
+  }
+
+  .contact-textarea {
+    display: block;
+    width: 15rem;
+    height: 7rem;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 5px gray;
+    color: white;
+    outline: none;
+  }
+
+  .contact-message {
+    margin-bottom: 20%;
+  }
+
+  .contact-spline {
+    height: 400px !important;
+    margin-top: 20%;
+  }
+
+  @keyframes draw-border {
+    from {
+      width: 0;
+      height: 0;
+    }
+    to {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .thankyou-page {
+    position: relative;
+    margin: 60% auto;
+    font-size: 50px;
+    font-family: "DM Serif Display", serif;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    overflow: hidden;
+  }
+
+  .thankyou-page:before,
+  .thankyou-page:after {
+    content: "";
+    position: absolute;
+    border: 2px solid white;
+    border-width: 4px 0 0 4px; /* Top and left borders */
+    animation: draw-border 0.5s linear forwards;
+  }
+
+  .thankyou-page:before {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .thankyou-page:after {
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 4px 4px 0; /* Right and bottom borders */
+  }
+}

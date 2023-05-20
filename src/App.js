@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import Contact from "./pages/Contact";
+import ThreeDGame from "./pages/ThreeDGame";
+import AboutMe from "./pages/AboutMe";
+import Terms from "./pages/Terms";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route index element={<LandingPage />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="ThreeDGame" element={<ThreeDGame />} />
+        <Route path="AboutMe" element={<AboutMe />} />
+        <Route path="Terms" element={<Terms />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
