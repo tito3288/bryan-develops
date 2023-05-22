@@ -30,9 +30,9 @@ const Footer = () => {
       <div className="footer-content">
         <p className="footer-title">
           <span style={{ color: "white" }}>B</span>RYAN{" "}
-          <span style={{ color: "white" }}>A</span>RAMBULA{" "}
-          <span style={{ color: "white" }}>W</span>EB{" "}
-          <span style={{ color: "white" }}>D</span>EVELOPMENT{" "}
+          {/* <span style={{ color: "white" }}>A</span>RAMBULA{" "}
+          <span style={{ color: "white" }}>W</span>EB{" "} */}
+          <span style={{ color: "white" }}>D</span>EVELOPS{" "}
           <span style={{ color: "white" }}>©{currentYear}</span>
         </p>
         <Link

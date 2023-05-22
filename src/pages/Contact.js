@@ -9,6 +9,11 @@ import ScrollToTop from "../components/ScrollToTop";
 const Contact = () => {
   const [state, handleSubmit, reset] = useForm("mbjebzvw");
   const [showThanksMessage, setShowThanksMessage] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(true);
+
+  const handleLoad = () => {
+    setIsLoading(false);
+  };
 
   const onSubmit = (data) => {
     handleSubmit(data);
@@ -57,10 +62,30 @@ const Contact = () => {
       <NavbarComp />
       <Row lg={2} md={1} sm={1} xs={1} style={{ width: "100%" }}>
         <Col>
+          {isLoading && (
+            //MOVE THESE STYLES INTO A CSS FILE
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh",
+              }}
+            >
+              <img
+                style={{
+                  width: "100px",
+                }}
+                src="logo-gif.GIF"
+                alt="Loading..."
+              />
+            </div>
+          )}
           <Spline
             className="contact-spline"
             style={{ height: "900px" }}
             scene="https://prod.spline.design/L6k2RFfpjHR-O-Zg/scene.splinecode"
+            onLoad={handleLoad}
           />
         </Col>
         <Col>

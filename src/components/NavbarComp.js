@@ -47,7 +47,7 @@ const NavbarComp = () => {
               }}
             >
               <img className="nav-image" src="logo192.png" />
-              <h1 className="nav-bryan-title">B.A.W.D</h1>
+              {/* <h1 className="nav-bryan-title">B.A.W.D</h1> */}
             </Navbar.Brand>
 
             <Navbar.Toggle
