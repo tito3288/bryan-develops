@@ -35,6 +35,14 @@ const Contact = () => {
     }
   }, [state.succeeded]);
 
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 10000); // 10 seconds delay
+
+    return () => clearTimeout(timer); // cleanup timer on component unmount
+  }, []);
+
   // THIS CODE INDERNEATH DELETES ALL THE INPUTS AFTER A SUCCESSFUL SUBMISSION
   if (showThanksMessage) {
     return (
