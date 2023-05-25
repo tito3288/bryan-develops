@@ -499,6 +499,27 @@
   }
 
   /* 3D SECTION */
+
+  .custom-shape-divider-top-1682969709 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1682969709 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+  }
+
+  .custom-shape-divider-top-1682969709 .shape-fill {
+    fill: black;
+  }
+
   .threeD-container {
     background-color: white;
     margin-top: 5%;
@@ -752,6 +773,27 @@
   }
 
   /* 3D SECTION */
+
+  .custom-shape-divider-top-1682969709 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1682969709 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 0;
+  }
+
+  .custom-shape-divider-top-1682969709 .shape-fill {
+    fill: black;
+  }
+
   .threeD-container {
     background-color: white;
     margin-top: 10%;

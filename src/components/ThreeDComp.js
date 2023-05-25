@@ -13,7 +13,7 @@ const ThreeDComp = () => {
         position: "relative",
         opacity: "1",
         backgroundImage:
-          "repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 33px ), repeating-linear-gradient( #dddcdb55, #dddcdb )",
+          "repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 33px ), repeating-linear-gradient( #dddcdb, #dddcdb )",
       }}
     >
       <div
