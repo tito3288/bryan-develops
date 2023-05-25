@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Style.css";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -57,6 +58,19 @@ const Footer = () => {
           }}
         >
           Terms Of Service
+        </Link>
+        <Link
+          to="https://www.facebook.com/profile.php?id=100093087544734&mibextid=LQQJ4d"
+          style={{
+            margin: "0",
+            marginLeft: "20px",
+            color: "white",
+            textDecoration: "none",
+            display: "block",
+            paddingTop: "10px",
+          }}
+        >
+          <FacebookIcon />
         </Link>
       </div>
     </div>
