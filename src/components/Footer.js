@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Style.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -55,6 +56,7 @@ const Footer = () => {
             marginLeft: "20px",
             color: "white",
             textDecoration: "none",
+            display: "block",
           }}
         >
           Terms Of Service
@@ -66,11 +68,22 @@ const Footer = () => {
             marginLeft: "20px",
             color: "white",
             textDecoration: "none",
-            display: "block",
             paddingTop: "10px",
           }}
         >
           <FacebookIcon />
+        </Link>
+        <Link
+          to="https://www.linkedin.com/in/bryan-arambula-823a86191"
+          style={{
+            margin: "0",
+            marginLeft: "0px",
+            color: "white",
+            textDecoration: "none",
+            paddingTop: "10px",
+          }}
+        >
+          <LinkedInIcon />
         </Link>
       </div>
     </div>

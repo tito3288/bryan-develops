@@ -80,6 +80,16 @@ const NavbarComp = () => {
                 </Link>
                 <Link
                   className="nav-link-custom"
+                  style={{
+                    color: "black",
+                    fontFamily: "Raleway, sans-serif",
+                  }}
+                  to="/Templates"
+                >
+                  Templates
+                </Link>
+                <Link
+                  className="nav-link-custom"
                   style={{ color: "black", fontFamily: "Raleway, sans-serif" }}
                   to="https://bryanarambula.com/"
                 >

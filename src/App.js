@@ -7,6 +7,7 @@ import ThreeDGame from "./pages/ThreeDGame";
 import AboutMe from "./pages/AboutMe";
 import Terms from "./pages/Terms";
 import ScrollToTop from "./components/ScrollToTop";
+import Templates from "./pages/Templates";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="ThreeDGame" element={<ThreeDGame />} />
         <Route path="AboutMe" element={<AboutMe />} />
         <Route path="Terms" element={<Terms />} />
+        <Route path="Templates" element={<Templates />} />
       </Routes>
     </BrowserRouter>
   );
