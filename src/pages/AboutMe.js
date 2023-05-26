@@ -18,7 +18,7 @@ const AboutMe = () => {
       <ScrollToTop />
       <NavbarComp />
       <div className="aboutMe-content">
-        <Container>
+        <Container className="aboutMe-container">
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -33,8 +33,12 @@ const AboutMe = () => {
             functional product excites me till this day! Don't hesitate to reach
             out, I would love to hear your ideas or even interchange some so we
             can bring your vision to life. Feel free to explore my portfolio if
-            you would like to learn more about me!
+            you would like to learn more about me! <br />
+            👇
           </motion.p>
+          <a href="https://bryanarambula.com">
+            <button className="button-shaking">Portfolio</button>
+          </a>
         </Container>
       </div>
     </div>

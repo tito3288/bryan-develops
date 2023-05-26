@@ -513,7 +513,7 @@
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 75px;
+    height: 0;
   }
 
   .custom-shape-divider-top-1682969709 .shape-fill {

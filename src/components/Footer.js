@@ -57,6 +57,7 @@ const Footer = () => {
             color: "white",
             textDecoration: "none",
             display: "block",
+            paddingBottom: "5px",
           }}
         >
           Terms Of Service

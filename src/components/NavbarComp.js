@@ -46,7 +46,7 @@ const NavbarComp = () => {
                 borderRadius: "10px",
               }}
             >
-              <img className="nav-image" src="logo192.png" />
+              <img className="nav-image" src="logo192.png" alt="navbar-brand" />
               {/* <h1 className="nav-bryan-title">B.A.W.D</h1> */}
             </Navbar.Brand>
 
@@ -84,18 +84,17 @@ const NavbarComp = () => {
                     color: "black",
                     fontFamily: "Raleway, sans-serif",
                   }}
-                  to="/Templates"
+                  to="/TemplatesPage"
                 >
-                  Templates
+                  Designs
                 </Link>
-                <Link
+                {/* <Link
                   className="nav-link-custom"
                   style={{ color: "black", fontFamily: "Raleway, sans-serif" }}
                   to="https://bryanarambula.com/"
                 >
                   Portfolio
-                </Link>
-                {/* REACT LINK */}
+                </Link> */}
                 <Link
                   className="nav-link-custom"
                   style={{
