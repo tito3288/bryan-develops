@@ -7,7 +7,6 @@ const WhyMeComp = () => {
   return (
     <div className="whyMe-background">
       <div className="whyMe-background2"></div>
-
       <Row
         style={{
           width: "100%",

@@ -1,26 +1,3 @@
-.aboutMe-content {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  /* position: relative; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.aboutMe-container {
-  padding-bottom: 5%;
-}
-
-.aboutMe-paragraph {
-  color: white;
-  font-size: 35px;
-  text-align: center;
-  font-family: "Nobile", sans-serif;
-  margin-top: 20%;
-  padding-bottom: 5%;
-}
-
 .button-shaking {
   display: inline-block;
   padding: 10px 20px;
@@ -36,6 +13,42 @@
 
 .button-shaking:hover {
   animation-play-state: paused;
+}
+
+.aboutMe-cont {
+  padding-bottom: 5%;
+}
+
+.aboutMe-par {
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-size: 35px;
+  font-family: "Nobile", sans-serif;
+}
+
+.aboutMe-background {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 850px;
+  z-index: 1;
+}
+
+.aboutMe-background2 {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/about-me2.jpg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: -1;
 }
 
 @keyframes shake {
@@ -86,8 +99,8 @@
     align-items: center;
   }
 
-  .aboutMe-container {
-    padding-bottom: 15%;
+  .aboutMe-cont {
+    padding-bottom: 10%;
   }
 
   .aboutMe-paragraph {
@@ -95,7 +108,7 @@
     font-size: 30px;
     text-align: center;
     margin-top: 40%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
   }
 
   .button-shaking {
@@ -114,28 +127,41 @@
 
 /* IPHONE */
 @media screen and (max-width: 600px) {
-  .aboutMe-content {
+  .aboutMe-cont {
     height: 100%;
+    padding-bottom: 35%;
+  }
+
+  .aboutMe-par {
+    padding-top: 30%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    font-family: "Nobile", sans-serif;
+    /* height: 100%; */
+  }
+
+  .aboutMe-background {
     width: 100%;
+    height: 100%;
     background-color: black;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px;
+    z-index: 1;
   }
 
-  .aboutMe-container {
-    padding-bottom: 15%;
-  }
-
-  .aboutMe-paragraph {
+  .aboutMe-background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    text-align: center;
-    margin-top: 30%;
-    padding-bottom: 10%;
+    background-image: url(../public/about-me2.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: -1;
   }
 
   .button-shaking {

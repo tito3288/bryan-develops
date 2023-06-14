@@ -63,7 +63,7 @@ const Footer = () => {
           Terms Of Service
         </Link>
         <Link
-          to="https://www.facebook.com/profile.php?id=100093087544734&mibextid=LQQJ4d"
+          to="https://www.facebook.com/BryanDevelops"
           style={{
             margin: "0",
             marginLeft: "20px",
